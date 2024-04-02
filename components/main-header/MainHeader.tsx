@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import MainHeaderBackground from "./MainHeaderBackground";
+import NavLink from "./NavLink";
 
 const MainHeader = () => {
   return (
@@ -25,11 +26,11 @@ const MainHeader = () => {
 
         <ul className="flex gap-4 items-center text-lg">
           <li className="text-[#ddd6cb] font-bold py-2 px-4 rounded-lg hover:text-gradient hover:text-shadow">
-            <Link href={"meals"}>Browse Meals</Link>
+            <NavLink href="/meals">Meals</NavLink>
           </li>
 
           <li className="text-[#ddd6cb] font-bold py-2 px-4 rounded-lg hover:text-gradient hover:text-shadow">
-            <Link href={"community"}>Foodies Community</Link>
+            <NavLink href={"/community"}>Foodies Community</NavLink>
           </li>
         </ul>
       </header>
