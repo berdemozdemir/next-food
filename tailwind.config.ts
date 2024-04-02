@@ -27,6 +27,12 @@ const config: Config = {
           "background-clip": "text",
           "-webkit-text-fill-color": "transparent",
         },
+        ".text-highlight": {
+          background: "linear-gradient(90deg, #f9572a, #ff8a05)",
+          "background-clip": "text",
+          "-webkit-background-clip": "text",
+          "-webkit-text-fill-color": "transparent",
+        },
         ".text-shadow": {
           "text-shadow": "0 0 18px rgba(248, 190, 42, 0.8)",
         },

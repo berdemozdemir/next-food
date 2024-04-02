@@ -1,5 +1,4 @@
 import ImageSlide from "@/components/image-slide/image-slide";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
       <header className="flex flex-col md:flex-row gap-12 mx-auto w-11/12 max-w-6xl my-12">
         <div className="w-[40rem] h-[25rem]">
           <ImageSlide />
-          {/* <Image width={512} height={512} src={"/burger.jpg"} alt="alt" /> */}
         </div>
 
         <div className="my-auto">
